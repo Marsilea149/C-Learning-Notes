@@ -3,6 +3,7 @@ To overload multiply operator:
 
 - Multiplication by a scalar on the right 
 Inside of the class, create a member function for that:
+
     template <typename T>
     Matrix<T> operator*(T scalar) {
         return matrix * scalar;
